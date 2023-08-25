@@ -2,7 +2,7 @@ package com.example.demo.domain.enums;
 
 public enum Status {
 
-	ABERTO(0, "ABERTO"), ANDAMENTO(1, "ANDAMENTO"), ENCERRAMENTO(2,"ENCERRAMENTO");
+	ABERTO(0, "ABERTO"), ANDAMENTO(1, "ANDAMENTO"), ENCERRADO(2,"ENCERRADO");
 	
 	private Integer codigo;
 	private String descricao;
